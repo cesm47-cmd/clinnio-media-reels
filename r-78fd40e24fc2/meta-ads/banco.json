@@ -1,0 +1,97 @@
+[
+ {
+  "id": "A1_cubiculo",
+  "fondo": "lavanda",
+  "etiqueta": "Para dueños de consultorios",
+  "lineas": [
+   "¿Tienes un",
+   "cubículo",
+   "sin usar?"
+  ],
+  "clave": 3,
+  "cuerpo": "Si cumple los requisitos, puede ser el consultorio de alguien más."
+ },
+ {
+  "id": "A2_horas_libres",
+  "fondo": "lavanda",
+  "etiqueta": "Para dueños de consultorios",
+  "lineas": [
+   "¿Tu consultorio",
+   "tiene horas",
+   "libres?"
+  ],
+  "clave": 3,
+  "cuerpo": "Si cumple los requisitos, puede ser el consultorio de alguien más.",
+  "asterisco": "izq"
+ },
+ {
+  "id": "B1_sin_mensualidad",
+  "fondo": "crema",
+  "etiqueta": "Para dueños de consultorios",
+  "lineas": [
+   "Sin mensualidad",
+   "fija."
+  ],
+  "clave": 2,
+  "cuerpo": "Solo se cobra comisión por reservas pagadas."
+ },
+ {
+  "id": "B2_sin_reservas",
+  "fondo": "mostaza",
+  "etiqueta": "Para dueños de consultorios",
+  "lineas": [
+   "Sin reservas,",
+   "no pagas",
+   "nada."
+  ],
+  "clave": 3,
+  "cuerpo": "Sin mensualidad fija: solo comisión por reservas pagadas.",
+  "asterisco": "izq"
+ },
+ {
+  "id": "C1_fijo_o_por_hora",
+  "fondo": "crema",
+  "etiqueta": "Para profesionales de la salud",
+  "lineas": [
+   "¿Alquiler fijo",
+   "o por hora?"
+  ],
+  "clave": 2,
+  "cuerpo": "Compara con tu propio caso."
+ },
+ {
+  "id": "C2_28_dias",
+  "fondo": "verde",
+  "etiqueta": "Para profesionales de la salud",
+  "lineas": [
+   "Pagas los 28 días.",
+   "Atiendes 8."
+  ],
+  "clave": 2,
+  "nota": "Ejemplo: consulta martes y jueves, alquiler mensual fijo.",
+  "asterisco": "izq"
+ },
+ {
+  "id": "D1_horario_pacientes",
+  "fondo": "salvia",
+  "etiqueta": "Para psicólogos",
+  "lineas": [
+   "Tu consulta,",
+   "en el horario",
+   "de tus pacientes."
+  ],
+  "clave": 2
+ },
+ {
+  "id": "D2_consultorios_por_hora",
+  "fondo": "celeste",
+  "etiqueta": "Para profesionales de la salud",
+  "lineas": [
+   "Consultorios por hora",
+   "para profesionales",
+   "de la salud."
+  ],
+  "clave": 1,
+  "asterisco": "izq"
+ }
+]
