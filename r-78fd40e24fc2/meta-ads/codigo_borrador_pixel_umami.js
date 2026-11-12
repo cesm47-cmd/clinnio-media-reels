@@ -2,6 +2,7 @@
    Falta: el ID del píxel (lo da César cuando cree la cuenta publicitaria) y el ID del sitio en Umami. */
 (function(){
   var PIXEL_ID = 'PENDIENTE_CESAR';           // no inventar; queda vacío hasta que César lo dé
+  // Antes de poner el ID real: encender Core setup en Events Manager. Si no, llegan a Meta los UTM y el parámetro rol (V-126).
   var CLAVE = 'clinnio_cookies_meta';         // 'si' o 'no', guardado solo en este navegador
 
   function cargarPixel(){
@@ -27,8 +28,23 @@
   document.getElementById('cookies-no').addEventListener('click', function(){
     localStorage.setItem(CLAVE,'no'); aviso.hidden = true;
   });
+  function borrarCookieMeta(){
+    ['_fbp','_fbc'].forEach(function(n){
+      var dom = location.hostname;
+      document.cookie = n+'=; Max-Age=0; path=/';
+      document.cookie = n+'=; Max-Age=0; path=/; domain=.'+dom;
+    });
+  }
   document.getElementById('cookies-cambiar').addEventListener('click', function(e){
-    e.preventDefault(); localStorage.removeItem(CLAVE); aviso.hidden = false;
+    e.preventDefault();
+    if (localStorage.getItem(CLAVE) === 'si') {          // retirar consentimiento (V-126, punto 3)
+      if (window.fbq) fbq('consent', 'revoke');
+      borrarCookieMeta();
+      localStorage.setItem(CLAVE, 'no');
+      location.reload();                                 // recarga sin el píxel
+      return;
+    }
+    localStorage.removeItem(CLAVE); aviso.hidden = false;
   });
 
   // Registro: evento estándar Lead sin parámetros ni campos del formulario (regla 11)

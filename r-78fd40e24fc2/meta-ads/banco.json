@@ -60,15 +60,16 @@
   "cuerpo": "Compara con tu propio caso."
  },
  {
-  "id": "C2_28_dias",
+  "id": "C2_28_dias_v2",
   "fondo": "verde",
   "etiqueta": "Para profesionales de la salud",
   "lineas": [
-   "Pagas los 28 días.",
-   "Atiendes 8."
+   "Alquiler mensual:",
+   "28 días pagados,",
+   "8 de consulta."
   ],
-  "clave": 2,
-  "nota": "Ejemplo: consulta martes y jueves, alquiler mensual fijo.",
+  "clave": 3,
+  "nota": "Ejemplo ilustrativo",
   "asterisco": "izq"
  },
  {
