@@ -18,7 +18,7 @@ for l in lineas:
     d.text(((W-d.textlength(l,font=f))/2,y),l,font=f,fill=CREMA); y+=72
 fp=fuente('Medium',34)
 pw=int(d.textlength('Muy pronto',font=fp))+48
-pildora(im,((W-pw)//2,y+30),'Muy pronto',fp,CELESTE,VERDE,rel=24)
+pildora(im,((W-pw)//2,y+30),'Muy pronto',fp,CREMA,VERDE,rel=24)
 if guias:
     d.rectangle((sx,sy,sx+sw,sy+sh),outline=(255,0,0),width=3)
-im.save('Portada_Facebook_Clinnio_v1%s.png'%('_guias' if guias else ''))
+im.save('Portada_Facebook_Clinnio_v2%s.png'%('_guias' if guias else ''))
