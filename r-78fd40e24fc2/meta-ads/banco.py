@@ -35,7 +35,12 @@ def pieza(s, fmt, out, guias=False):
     if y+bloques>limite: raise SystemExit(f"{s['id']} {fmt}: no cabe")
     y+=int((limite-y-bloques)*0.4)
     if s.get('etiqueta'):
-        pildora(im,(ml,y),s['etiqueta'].upper(),fuente('Bold',30),CELESTE if verde else VERDE,VERDE if verde else CREMA,rel=28); y+=80
+        if verde:  # V-128: crema sobre verde, con borde crema para que el chip se vea sobre el fondo verde
+            fe=fuente('Bold',30); t=s['etiqueta'].upper(); wq=int(d.textlength(t,font=fe))+56; hq=int(fe.size)+28
+            d.rounded_rectangle((ml,y,ml+wq,y+hq),hq//2,fill=VERDE,outline=CREMA,width=3); d.text((ml+28,y+12),t,font=fe,fill=CREMA)
+        else:
+            pildora(im,(ml,y),s['etiqueta'].upper(),fuente('Bold',30),VERDE,CREMA,rel=28)
+        y+=80
     for i,l in enumerate(lineas,1):
         if s.get('clave')==i and not verde:
             w=int(d.textlength(l,font=f))+56
