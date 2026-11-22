@@ -1,6 +1,6 @@
 [
  {
-  "id": "A1_cubiculo",
+  "id": "A1_cubiculo_v2",
   "fondo": "lavanda",
   "etiqueta": "Para dueños de consultorios",
   "lineas": [
@@ -9,10 +9,10 @@
    "sin usar?"
   ],
   "clave": 3,
-  "cuerpo": "Si cumple los requisitos, puede ser el consultorio de alguien más."
+  "cuerpo": "Publica sus horas libres. Sin reservas, no pagas nada."
  },
  {
-  "id": "A2_horas_libres",
+  "id": "A2_horas_libres_v2",
   "fondo": "lavanda",
   "etiqueta": "Para dueños de consultorios",
   "lineas": [
@@ -21,7 +21,7 @@
    "libres?"
   ],
   "clave": 3,
-  "cuerpo": "Si cumple los requisitos, puede ser el consultorio de alguien más.",
+  "cuerpo": "Publica sus horas libres. Sin reservas, no pagas nada.",
   "asterisco": "izq"
  },
  {
