@@ -16,9 +16,9 @@ Borrador v3.1 de Talía, 24/11/2026. Aplica V-164: lámina 1/7 «Esas horas pued
 
 ## Caption
 
-> En muchas clínicas dentales hay sillones que pasan horas sin uso entre una cita y otra. Esas horas muertas pueden convertirse en ingreso: con Clinnio publicarás solo las horas libres que quieras ofrecer, una por una, sin ceder un turno ni un mes completo. Tus pacientes y tu equipo siguen igual.
+> En muchas clínicas dentales hay sillones que pasan horas sin uso entre una cita y otra. Esas horas pueden recibir a otro odontólogo: con Clinnio publicarás solo las horas libres que quieras ofrecer, una por una, sin ceder un turno ni un mes completo. Tus pacientes y tu equipo siguen igual.
 >
-> Sin mensualidad fija: solo se cobra comisión por reservas pagadas. Sin reservas, no paga nada. Pagos con Pago Móvil, débito inmediato y PayPal.
+> Sin mensualidad fija: solo se cobra comisión por reservas pagadas. Sin reservas, no pagas nada. Pagos con Pago Móvil, débito inmediato y PayPal.
 >
 > ¿En qué días suelen quedar libres los sillones de tu clínica?
 >
@@ -44,4 +44,5 @@ Carrusel de 7 láminas en terracota y crema con letras verdes, dirigido a clíni
 
 - 1/7: «Esas horas muertas pueden convertirse en ingreso.» pasa a «Esas horas pueden recibir a otro odontólogo.»
 - 6/7: «no paga nada» pasa a «no pagas nada».
+- Caption: «Esas horas muertas pueden convertirse en ingreso» pasa a «Esas horas pueden recibir a otro odontólogo» y «no paga nada» a «no pagas nada».
 - La tabla refleja el 5/7 de 7d60c1c («reserva tu hora en Clinnio»).
