@@ -64,7 +64,7 @@ Ilustración de la recepción de un consultorio en Caracas, con el Ávila en la 
 
 ## Portada
 
-Reel_14_v5_llave_portada.png · 1080x1920: la llave cruzando sobre el mostrador con el llavero «Partes verificadas», las dos notas verificadas detrás y el rótulo de Clinnio arriba; etiqueta «Para profesionales y dueños de consultorios» y promesa «¿Es quien dice ser?», dentro de la zona segura (y 285 a 1635). César la fija desde la app de Instagram.
+Reel_14_v5_llave_portada.png · 1080x1920: la llave cruzando sobre el mostrador entre la profesional y el dueño, con el llavero «Partes verificadas» y el rótulo de Clinnio arriba (sin las notas, para que nada quede tapado); etiqueta «Para profesionales y dueños de consultorios» y promesa «¿Es quien dice ser?», dentro de la zona segura (y 285 a 1635). César la fija desde la app de Instagram.
 
 ## Prueba anti-parecido (frente a V-167 v4, V-166 v3 y Carrusel B)
 
